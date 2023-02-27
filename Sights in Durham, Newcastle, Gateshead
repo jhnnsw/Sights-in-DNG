@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<style>
+	h1  {text-align: center;}
+	/*Alle mit dem h1 Tag geschrieben Texte werden zentriert*/
+	h2  {text-align:center;
+	     color: #111;}
+		 /*Hierbei wird alles mit dem h2 Tag geschrieben zentriert und schwarz geschrieben*/
+    h3  {text-align: center;}
+	body{background-image: url(Images/strukturierter-hintergrund-des-designraumes-papier_53876-33594.avif);
+	    background-repeat: repeat-x;
+	    background-size:cover;}
+	/*Hiermit fügt man ein Hintergrundbild ein*/
+    div.a{text-align: right;}
+	/*Das Element wird rechts positioniert*/
+	ul {list-style-type: none;
+	   margin:0 ;
+	   padding: 0;
+	   overflow: hidden;
+	   background-color: burlywood;}
+	   /*Die Hintergrundfarbe ist bei ul Aufzählungen immer burlywood*/
+    li {float: left;}
+	li a{display: block;
+		   color: #111;
+		   text-align: center;
+		   padding: 1px 75px;
+		   text-decoration: none;}
+	li a:hover{background-color:grey;}
+	ol {list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+		overflow: hidden;
+		background-color:rgb(197, 176, 139) ;}
+	/*Wenn man mit der Maus über den Link geht färbt sich das Feld*/
+	a h3{color: #111;}
+	/*Alles mit a h3 geschrieben wird automatisch schwarz geschrieben*/
+    a p {text-align: center;}
+	div.border{border: 3px solid gray;
+		width: 700px;
+	    margin: 3px;
+	    padding: 3px;
+		box-align:baseline;}
+	/*Hierbei wird eine graue Box mit bestimmter Größe um den Text gemacht*/
+	img {float: right;}
+	/*Die Bilder werden rechts zentriert*/
+	div.sticky{position: -webkit-sticky;
+		       position: sticky;
+  			   bottom: 0;
+  			   right: 0;
+  			   width: 90px;
+  			   border: 3px solid gray;
+			   border-style:groove;
+			   background-color: rgb(174, 164, 164);}
+			   /*Der "back to top" Link bewegt sich mit beim scrollen*/
+	a {color: #111;}
+	p {text-align: center;}
+	div.titel{float: inline-start;}
+</style>
+<body>		
+<img src="Images/37C224F6-00E1-4358-A505-F1679891722F.JPEG" width="1500" alt="Bild von Gateshead mit Überschrift">
+<h2>Here are some sights you can visit if you are in one of the cities</h2>
+<br>
+<br>
+<br>
+<br>
+<ul>
+	<li><a href="#Durham"><h2>Durham</h2></a></li>
+	<li><a href="#Newcastle"><h2>Newcastle</h2></a></li>
+	<li><a href="#Gateshead"><h2>Gateshead</h2></a></li>
+</ul>
+
+<a name="Durham"><h1>Durham</h1></a>
+<ol>
+	<li><a href="#Durham Cathedral"><h3>Durham Cathedral</h3></a></li>
+	<li><a href="#Durham Castle"><h3>Durham Castle</h3></a></li>
+	<li><a href="#Crook Hall&Gardens"><h3>Crook Hall & Gardens</h3></a></li>
+	<li><a href="#Oriental Museum"><h3>Oriental Museum</h3></a></li>
+	<li><a href="#Palace Green"><h3>Palace Green</h3></a></li>
+</ol>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a name="Newcastle"><h1>Newcastle</h1></a>
+<ol>
+	<li><a href="#Victoria Tunnel"><h3>Victoria Tunnel</h3></a></li>
+	<li><a href="#St. James Park"><h3>Saint James Park</h3></a></li>
+	<li><a href="#Quayside"><h3>Quayside</h3></a></li>
+	<li><a href="#Newcastle Castle"><h3>Newcastle Castle</h3></a></li>
+	<li><a href="#The Discovery Museum"><h3>The Discovery Museum</h3></a></li>
+</ol>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a name="Gateshead"><h1>Gateshead</h1></a>
+<ol>
+	<li><a href="#The Angel of the North"><h3>The Angel of the North</h3></a></li>
+    <li><a href="#Gibside"><h3>Gibside</h3></a></li>
+	<li><a href="#Millenium Bridge"><h3>Millenium Bridge</h3></a></li>
+	<li><a href="#Sage Gateshead"><h3>Sage Gateshead</h3></a></li>
+	<li><a href="#Tanfield Railway"><h3>Tanfield Railway</h3></a></li>
+</ol>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1>Durham</h1>
+<br>
+<img src="Images/durham-cathedral-england.jpg" width="700" height="830" alt="Bild von Durham">
+<a name="Durham Cathedral"><h2><b>Durham Cathedral</b></h2></a>
+<div class="border"><p><b>Durham Cathedral is a must-see sight for anyone interested in history, the architecture of the Normans, art, or simply looking for a beautiful and inspiring place to visit. When you stand in front of the building, you are amazed of how huge it is and it is also a Unesco World Heritage</b></p></div>
+
+<a name="Durham Castle"><h2><b>Durham Castle</b></h2></a>
+<div class="border"><p><b>You should definitely visit Durham Castle. It is also a building built in the style of Norman architecture. Today it is used for Durham University. Durham Castle is also located right in the centre of Durham. So if you like Durham Cathedral, then you should visit Durham Castle too!  </b></p></div>
+
+<a name="Crook Hall&Gardens"><h2><b>Crook Hall & Gardens</b></h2></a>
+<div class="border"><p><b>The gardens at Crook Hall are a stunning example of English country gardening, with a variety of themed gardens, including a rose garden, a silver and white garden, and a Shakespeare garden. The gardens are beautifully maintained and offer a peaceful and quiet retreat from the hustle and bustle of the city.</b></p></div>
+
+<a name="Oriental Museum"><h2><b>Oriental Museum</b></h2></a>
+<div class="border"><p><b>The Oriental Museum is dedicated to the art and archaeology of Asia and features a wide range of exhibits from across the continent. Visitors can learn about the history and culture of countries such as China, Japan, India, and Korea.</b></p></div>
+
+<a name="Palace Green"><h2><b>Palace Green</b></h2></a>
+<div class="border"><p><b>Palace Green offers stunning views of the surrounding countryside and the River Wear. Visitors can take in the beauty of the area while exploring the historic landmarks. Palace Green is part of Durham Cathedral and Durham Castle, so also located in the centre of Durham</b></p></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1>Newcastle</h1>
+<br>
+<img src="Images/1200px-Newcastle_schloss.jpg" width="700" height="830" alt="Bild von Newcastle">
+<a name="Victoria Tunnel"><h2><b>Victoria Tunnel</b></h2></a>
+<div class="border"><p><b>The Victoria Tunnel is a unique piece of Newcastle's history, and visiting it is an opportunity to learn about the city's industrial past. The tunnel was built in the 19th century, and it played an important role in the city's growth and development.</b></p></div>
+
+<a name="St. James Park"><h2><b>St. James Park</b></h2></a>
+<div class="border"><p><b>If you are a fan of football, then St. James' Park is the perfect destination. You can watch Newcastle United play in the Premier League or other competitions, and experience the unique atmosphere of a matchday at one of England's most iconic football grounds.</b></p></div>
+
+<a name="Quayside"><h2><b>Quayside</b></h2></a>
+<div class="border"><p><b>The area is home to some of Newcastle's most historic buildings, including the iconic Tyne Bridge, the Baltic Centre for Contemporary Art, and the Sage Gateshead music venue. Walking along the Quayside, you can also see the historic buildings that once housed the city's shipbuilding and trading industries.</b></p></div>
+
+<a name="Newcastle Castle"><h2><b>Newcastle Castle</b></h2></a>
+<div class="border"><p><b>Newcastle Castle has a rich and fascinating history, dating back to the 11th century. By visiting the castle, you can learn about the castle's origins, its role in the city's growth and development, and the many historical people who have been associated with it.</b></p></div>
+
+<a name="The Discovery Museum"><h2><b>The Discovery Museum</b></h2></a>
+<div class="border"><p><b>The Discovery Museum has a range of fascinating exhibits on topics such as local history, science and technology, and maritime history. Visitors can learn about the region's industrial past, explore the history of communication and transport, and discover more about the universe.</b></p></div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1>Gateshead</h1>
+<br>
+<img src="Images/angel.jpg" width="700" height="820" alt=" Bild von Gateshead">
+<a name="The Angel of the North"><h2><b>The Angel of the North</b></h2></a>
+<div class="border"><p><b>The Angel of the North is a unique and impressive landmark that is definitely worth a visit if you're in Gateshead. The Angel is made of rust brown steal. Whether you're interested in art, engineering, or just want to take some great photos, the Angel is the perfect sight.</b></p></div>
+
+<a name="Gibside"><h2><b>Gibside</b></h2></a>
+<div class="border"><p><b>Gibside is one of the few surviving 18th-century designed landscapes and was fashioned with two things in mind: spectacular views and WOW moments. Here, you can escape the hustle and bustle of modern life within 243 hectares (600 acres) of gardens, woodland and countryside - perfect for wildlife spotting. Highlights include a Neo-classical chapel, restored stable block and grand ruin.</b></p></div>
+
+<a name="Millenium Bridge"><h2><b>Millenium Bridge</b></h2></a>
+<div class="border"><p><b>The Gateshead Millennium Bridge is a feat of modern engineering and architecture, with an impressive design that allows it to pivot to allow ships to pass beneath. It has won numerous awards and has become a symbol of the region's regeneration and innovation.</b></p></div>
+
+<a name="Sage Gateshead"><h2><b>Sage Gateshead</b></h2></a>
+<div class="border"><p><b>The Sage Gateshead is a stunning piece of architecture, with its curved glass structure and striking design making it a standout landmark on the River Tyne. It is known for its world class music performances and wide range of genres and artists.</b></p></div>
+
+<a name="Tanfield Railway"><h2><b>Tanfield Railway</b></h2></a>
+<div class="border"><p><b>Tanfield Railway is home to a range of historic steam trains, some of which date back to the 1800s.The railway runs through some of the North East's most beautiful countryside, with stunning views of the surrounding landscape.</b></p></div>
+<br>
+<br>
+<br>
+<h3>General</h3>
+<p>If you visit Durham, Newcastle, or Gateshead you should like history or historic architecture. Of course you can visit them too if you like modern cities more. Every city also has modern buildings, like the Sage Gateshead or the Gateshead Millenium Bridge in Gateshead. Here are just some of the best sights of the cities. So you should definitely visit these cities with their beautiful sights!</p>		
+<br>
+<br>
+<br>
+<div class="a">Johannes Wittland 9a</div>
+<div class="sticky"><a href="#top"><b>back to top</b></a></div>
+
+</body>
+
